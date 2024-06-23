@@ -65,8 +65,6 @@ output_file = 'output_with_addresses.csv'
 # Write the updated DataFrame to a new CSV file
 df.to_csv(output_file, index=False)
 
-# Clean up the geolocator
-geolocator.close()
 
 print(f"Output saved to '{output_file}'.")
 
